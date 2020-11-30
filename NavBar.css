@@ -1,0 +1,26 @@
+.Nav__container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-top: 2px;
+    } 
+    
+     .Navright{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        grid-gap:30px;
+        width: 70vw;
+        justify-content: left;
+        text-align: center;
+        margin-right: 2rem;
+        list-style: none;
+    }
+    .from{
+        justify-content: end;
+        display: inline;
+        grid-gap:30px;
+        text-align: center;
+    }
+    
